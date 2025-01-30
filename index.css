@@ -1,0 +1,382 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*style bagian navbar*/
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 5%;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.07);
+    backdrop-filter: blur(7.5px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 35px;
+    transition: 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #ffb20b;
+}
+
+.navbar span{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height:40px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius:20px;
+    font-size: 19x;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px
+}
+
+.navbar span2{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height:40px;
+    background: #ffb20b;
+    border: 2px solid #ffb20b;
+    border-radius: 20px;
+    font-size: 19x;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px
+}
+
+/*start section home page*/
+.home {
+    display: fixed;
+    background-color: black;
+    width: 100%;
+    height:100vh;
+    padding: 10px;
+    top:0;
+    background-image: url(cobalt_cyan_abstract_glow.png);
+    background-repeat: no-repeat;
+    background-size:300vh;
+    background-position-y: -400px;
+    background-position-x: -400px;
+}
+
+.home-section h1{
+    font-size: 6em;;
+    display: flex;
+    width: 70vh;
+    margin-left: 69vh;
+    margin-top: 0;
+    padding-top: 20vh;
+    text-align: center;
+    color:white;
+    
+}
+
+.home-section p{
+    font-size: 2.5em;;
+    font-style: normal;
+    display: flex;
+    width: 80vh;
+    height: 50px;
+    margin-left: 60vh;
+    text-align: center;
+    color:white;
+}
+
+/*section ke2*/
+.border {
+    position: flex;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 10px 5%;
+    margin-top: 18vh; 
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+/*start Signal*/
+.signal-section {
+    display:absolute;
+    width: 325px;
+    height: 459px;
+    margin-right: 15vh;
+    text-align: center;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.signal-section img{
+    width: 128px;
+    height: 128px;
+    margin-top: 10vh;
+}
+
+.signal-section h1{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 2em;
+    font-style: bold;
+    margin-top: 5vh;
+}
+
+.signal-section p{
+    display: flex;
+    height: 12px;
+    width: 60%;
+    margin-left: 65px;
+}
+/*End signal*/
+
+/*start copytrade*/
+.copytrade-section {
+    display: absolute;
+    color: black;
+    width: 325px;
+    height: 459px;
+    margin-right: 15vh;
+    text-align: center;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.copytrade-section img{
+    width: 128px;
+    height: 128px;
+    margin-top: 10vh;
+}
+
+.copytrade-section h1 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 2em;
+    font-style: bold;
+    margin-top: 5vh;
+}
+
+.copytrade-section p {
+    display: flex;
+    height: 12px;
+    width: 65%;
+    margin-left: 58px;
+}
+/*end copytrade*/
+
+/*start news*/
+.news-section {
+    display: absolute;
+    color: black;
+    width: 325px;
+    height: 459px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.news-section img {
+    width: 128px;
+    height: 128px;
+    margin-top: 10vh;
+}
+
+.news-section h1 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 2em;
+    font-style: bold;
+    margin-top: 5vh;
+}
+
+.news-section p {
+    display: flex;
+    height: 12px;
+    width: 65%;
+    margin-left: 60px;
+}
+/*end news*/
+
+/*section home page2*/
+.hero {
+
+}
+
+.hero-section {
+    display: grid;
+    text-align: center;
+    margin-top: 35em;
+}
+
+.hero-section h1{
+    font-size: 3em;
+}
+
+.hero-section span1{
+    color: #3762c5;
+}
+
+.hero-section span2{
+    color:#ffb20b;
+}
+
+.hero-section p {
+    font-size: 2em;
+    width: 48%;
+    height: 44%;
+    margin-left: 55vh;
+}
+/*end secrtion hero*/
+
+.border2 {
+    width: 1168px;
+    height: 497px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 25px;
+    margin-top: 25vh;
+    margin-left: 385px;
+    background-image: url(main/orang.png);
+    background-repeat: no-repeat;
+    background-position: 42cqmax;
+}
+
+.border2 h1{
+    font-size: 2.3em;
+    color: white;
+    margin-left: 5vh;
+    margin-top: 6vh;
+}
+
+.border2 span1{
+    color:#3762c5;
+}
+
+.border2 span2{
+    color:#ffb20b;
+}
+
+.border2 p{
+    font-size: 2em;
+    color: white;
+    margin-left: 5vh; 
+}
+
+.border2 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: white;
+    width:125px;
+    height: 50px;
+    margin-left: 5vh;
+    margin-top: 7vh;
+    border: 2px solid #ffb20b;
+    border-radius: 25px;
+    background: #ffb20b;
+}
+
+/*start education-section*/
+.education {
+    margin-top:20vh;
+    width: 100%;
+    height:50vh;
+    background: black;
+}
+
+.content{
+    display: absolute;
+    margin-left: 100px;
+    color: white;
+}
+
+.content h1 {
+    font-size: 4em;
+    font-weight: 600;
+    padding-top: 5vh;
+}
+
+.content p {
+    font-size: 2em;
+    width: 80%;
+}
+
+/*video education*/
+.video {
+    display: absolute;
+    width: 100%;
+    height: 693px;
+    background: #bfbfbf;
+}
+
+.hero2 {
+    display: flex;
+    width: 20px;
+    margin-left: 171px;
+    padding-top: 6vh;
+}
+
+.content1 {
+}
+
+.content2 {
+    margin-left: 279px;
+}
+
+.content3 {
+    margin-left: 279px;
+}
+
+.hero3 {
+    display: flex;
+    width: 20px;
+    margin-left: 171px;
+    padding-top: 4vh;
+
+}
+
+.content4 {
+}
+
+.content5 {
+    margin-left: 279px;
+}
+
+.content6 {
+    margin-left: 279px;
+}
